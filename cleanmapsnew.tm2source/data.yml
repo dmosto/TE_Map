@@ -1,0 +1,29 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: zoomerdelivery.7101ecb6
+  rev: s-fd46f8ee
+  saveCenter: true
+attribution: ''
+center: 
+  - 0
+  - 0
+  - 1
+description: ''
+Layer: 
+  - id: CleanMaps
+    Datasource: 
+      file: /Users/david/Documents/CleanMaps.csv
+      type: csv
+    description: ''
+    fields: 
+      Latitude: Number
+      Longitude: Number
+      Restaurant Address 1: String
+      Restaurant Name: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 9
+minzoom: 0
+name: ''
